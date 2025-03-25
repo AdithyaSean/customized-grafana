@@ -16,3 +16,6 @@ USER grafana
 # Environment variables
 ENV GF_PATHS_PROVISIONING="/etc/grafana/provisioning"
 ENV GF_INSTALL_PLUGINS="grafana-piechart-panel"
+ENV GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH="/var/lib/grafana/dashboards/system-metrics.json"
+ENV GF_AUTH_LOGIN_TITLE="Test Monitoring"
+ENV GF_AUTH_LOGIN_SUBTITLE="System Metrics Dashboard"
